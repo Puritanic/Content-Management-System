@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>GBI - <?php echo $page_title; ?></title>
+	<title>GBI - <?php echo h($page_title); ?></title>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo url_for('/stylesheets/staff.css'); ?>">
 </head>
 <body>
