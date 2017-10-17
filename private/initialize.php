@@ -1,4 +1,6 @@
 <?php 
+	ob_start(); // turn output buffering on
+
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
 
@@ -23,4 +25,8 @@
 
 
 	require_once('functions.php');
+	require_once('database.php');
+	require_once('query_functions.php');
+
+	$db = db_connect();
  ?>
